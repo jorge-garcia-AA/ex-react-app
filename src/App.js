@@ -9,6 +9,9 @@ function App() {
         <p>
           MESSAGE: {process.env.REACT_APP_MESSAGE}
         </p>
+        <p>
+          TEST VAR: {process.env.REACT_APP_X_TEST_MESSAGE}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
